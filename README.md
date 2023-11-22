@@ -29,7 +29,7 @@ Testing the webserver
 ## PROGRAM:
 from http.server import HTTPServer,BaseHTTPRequestHandler
 
-content='''
+content="""
 <!doctype html>
 <html>
 <head>
@@ -43,7 +43,7 @@ content='''
 <h2>4. Spring </h2>
 </body>
 </html>
-'''
+"""
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
