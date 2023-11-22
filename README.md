@@ -29,7 +29,7 @@ Testing the webserver
 ## PROGRAM:
 from http.server import HTTPServer,BaseHTTPRequestHandler
 
-content="""
+content='''
 <!doctype html>
 <html>
 <head>
@@ -40,10 +40,9 @@ content="""
 <h2>1.Django</h2>
 <h2>2. MEAN Stack</h2>
 <h2>3. React </h2>
-<h2>4. Spring </h2>
 </body>
 </html>
-"""
+'''
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -54,10 +53,9 @@ class MyServer(BaseHTTPRequestHandler):
         self.wfile.write(content.encode())
 
 print("This is my webserver") 
-server_address =('',8000)
+server_address =('',80)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
-
 ## OUTPUT:
 
 ## RESULT:
