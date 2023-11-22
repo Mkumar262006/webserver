@@ -64,6 +64,11 @@ httpd.serve_forever()
 ```
 
 ## OUTPUT:
+###server output
+![image](https://github.com/Mkumar262006/webserver/assets/147139472/96c59732-3c1a-4545-8788-51e5f76ba931)
+###client output
+![Screenshot from 2023-10-16 14-52-32](https://github.com/Mkumar262006/webserver/assets/147139472/a88fe21b-98db-4a8e-bf86-2af082ebf7f9)
+
 
 ## RESULT:
 The program is executed succesfully
